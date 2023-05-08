@@ -3,7 +3,26 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Create Blog Project
-Run `ng new angular-blog` in your project
+  Run `ng new angular-blog` in your project<br />
+  Clean app.component.html file contents, keeping only `<router-outlet></router-outlet>`<br />
+  Set style in main css<br />
+  `* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #111111;
+  }`
+  <br />
+  Run `ng g c components/menu-bar`<br />
+  Run `ng g c components/menu-title`<br />
+  Run `ng g c components/big-card`<br />
+  Run `ng g c components/small-card`<br />
+  Delete the .spec.ts files<br />
+  Add `<app-small-card>` to app.component.html file
+
+### Creating menu-title
+  Copy app-big-card from the big-card.component.ts file and add the `<app-big-card>` tag to the app.component.html file<br />
+  Added styling to menu-title
 
 ## Development server
 
