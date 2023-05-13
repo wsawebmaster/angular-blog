@@ -23,6 +23,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Creating menu-title
   Copy app-big-card from the big-card.component.ts file and add the `<app-big-card>` tag to the app.component.html file<br />
   Added styling to menu-title
+### Creating big-card
+  create pages directory in app<br />
+  create component for home<br />
+  ng g c pages/home
 
 ## Development server
 
