@@ -27,6 +27,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   create pages directory in app<br />
   create component for home<br />
   ng g c pages/home
+### Creating content
+  ng g c pages/content
+
+### Creating other pages
+ng g c pages/content
 
 ## Development server
 
